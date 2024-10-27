@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: transparent;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+    padding: 20px;
+}
+.nav ul{
+    display: flex;
+    text-decoration: none;
+    gap: 20px;
+}
+.nav li{
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+
+}
+.box{
+    width: 100px;
+    padding: 5px;
+    border-radius: 15px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+}
+.search-icon{
+    font-size: 24px;
+    padding: 5px;
+}
+.bg{
+display: flex;
+
+}
+.bg img{
+  width: 100em;
+  height: 550px;
+}
+.head{
+    position: absolute;
+    top: 220px;
+    left: 70px;
+}
+.head p{
+    padding: 10px;
+}
+.container{
+    position: absolute;
+    display: flex;
+    gap:10px;
+    left: 80px;
+    top: 350px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+.cards{
+    background-color: transparent;
+}
+.card1{
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    height: 250px;
+    padding: 40px;
+    border: 2px solid black;
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+
+}
+.card1 icon{
+    opacity: 0.5;
+}
+.card2{
+    position: absolute;
+    top: 150px;
+    right: 320px;
+    height: 250px;
+    padding: 40px;
+    border: 2px solid black;
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.info{
+    position: absolute;
+    top: 430px;
+    left: 750px;
+    margin: 10px;
+}
+.card1 h1{
+  position: absolute;
+  left: 55px;
+}
+.card2 h1{
+    position: absolute;
+    left: 55px;
+}
+
